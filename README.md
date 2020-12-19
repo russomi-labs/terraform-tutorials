@@ -1,24 +1,24 @@
-# Foobar
+# terraform-tutorials
 
-Foobar is a Python library for dealing with word pluralization.
+Terraform - [Learning by doing](https://learn.hashicorp.com/terraform)
 
-## Installation
+## Tutorials
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+To keep learning by doing, get more familiar with the Terraform configuration language, provision the machines you create, or import existing infrastructure, visit the following tutorials.
 
-``` bash
-pip install foobar
-```
+- [Configuration Language](https://learn.hashicorp.com/collections/terraform/configuration-language) - Get more familiar with variables, outputs, dependencies, meta-arguments, and other language features to write more sophisticated Terraform configurations.
 
-## Usage
+- [Modules](https://learn.hashicorp.com/tutorials/terraform/module) - Organize and re-use Terraform configuration with modules.
 
-``` python
-import foobar
+- [Provision](https://learn.hashicorp.com/collections/terraform/provision) - Use Packer or Cloud-init to automatically provision SSH keys and a web server onto a Linux VM created by Terraform in AWS.
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+- [Import](https://learn.hashicorp.com/tutorials/terraform/state-import) - Import existing infrastructure into Terraform.
+
+To read more about available configuration options, explore the [Terraform documentation](https://www.terraform.io/docs/index.html).
+
+## Resources
+
+- [Learn Terraform - Tutorials](https://learn.hashicorp.com/terraform)
 
 ## Contributing
 
